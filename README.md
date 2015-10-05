@@ -6,6 +6,6 @@ Set of object to easy generate valid html.
 ```python
     from pyhtmlconstruct import html
 
-    print html.text.a("Hello World", attrs={"href": "#"},)
-    >>> <a href="#">Hello World</a>
+    >>> print html.text.a("Hello World", attrs={"href": "#"},)
+    <a href="#">Hello World</a>
 ```
