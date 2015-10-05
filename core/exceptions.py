@@ -1,0 +1,3 @@
+class ElementNotAllowed(Exception):
+    pass
+
